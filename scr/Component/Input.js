@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, TextInput, StyleSheet } from 'react-native'
-import {lightblue} from '../Helper/Colors'
+import { lightblue } from '../Helper/Colors'
+
 
 const Input = (props) => {
     const { style,
@@ -19,10 +20,12 @@ const Input = (props) => {
         placeholderTextColor,
         textAlign,
         textContentType,
-        passwordRules
+        passwordRules,
+        text,
+        Markstyle
     } = props
     return (
-        <View style={styles.container}> 
+        <View style={styles.container}>
             <TextInput
                 style={styles.input, style}
                 placeholder={placeholder}
@@ -47,14 +50,14 @@ const Input = (props) => {
 }
 
 const styles = StyleSheet.create({
-    container:{
-        flex:1,
-        backgroundColor:lightblue,
-        borderRadius:10
+    container: {
+        flex: 1,
+        backgroundColor: lightblue,
+        borderRadius: 10
     },
     input: {
         margin: 15,
-        padding:20       
+        padding: 20
     },
 })
 export default Input

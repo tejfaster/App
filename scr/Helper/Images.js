@@ -1,0 +1,1 @@
+export const profile = require('../../assets/625130.jpg')

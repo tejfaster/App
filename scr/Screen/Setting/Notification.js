@@ -86,7 +86,6 @@ const styles = StyleSheet.create({
         fontFamily: 'Arial',
         fontWeight: '700',
         fontSize: 20,
-
     },
     updatebutton: {
         height: HSize(20),

@@ -24,6 +24,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Notification from './scr/Screen/Setting/Notification'
+import Profile from './scr/Screen/Setting/Profile'
 
 const App: () => React$Node = () => {
   return (
@@ -31,7 +32,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView>
-        <Notification/>
+        <Profile/>
         </ScrollView>
       </SafeAreaView>
     </>
